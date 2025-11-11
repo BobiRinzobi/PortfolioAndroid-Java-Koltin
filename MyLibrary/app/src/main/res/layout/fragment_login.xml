@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#E6DCB9"
+        android:padding="24dp">
+
+
+        <ImageView
+            android:id="@+id/logoBook"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/coffeeCup"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_marginTop="8dp"
+            />
+
+        <EditText
+            android:id="@+id/email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:background="@android:color/white"
+            android:padding="12dp"
+            android:layout_marginTop="32dp"
+            android:textColor="#9B531A"
+            android:textColorHint="#C98A6D" />
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@android:color/white"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:inputType="textPassword"
+            android:textColor="#9B531A"
+            android:textColorHint="#C98A6D" />
+
+        <Button
+            android:id="@+id/reg_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#B66E28"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#B66E28"
+            android:text="Login"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/check_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#B66E28"
+            android:text="check"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</FrameLayout>

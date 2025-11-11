@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main_fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#E6DCB9">
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="209dp"
+            android:layout_height="211dp"
+            android:layout_marginStart="102dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginEnd="100dp"
+
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp">
+
+
+
+            <Button
+                android:id="@+id/searchbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="29dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="16dp"
+                android:text="search" />
+
+            <Button
+                android:id="@+id/treebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="34dp"
+                android:layout_marginBottom="16dp"
+                android:text="tree" />
+
+            <Button
+                android:id="@+id/settingsbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginBottom="16dp"
+                android:text="settings" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

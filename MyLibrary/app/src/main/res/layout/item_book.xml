@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground">
+
+
+    <ImageView
+        android:id="@+id/bookImage"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:scaleType="centerCrop"
+        android:background="#F0F0F0"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Название книги"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Автор книги"
+            android:textSize="14sp"
+            android:textColor="#666" />
+
+    </LinearLayout>
+
+</LinearLayout>
